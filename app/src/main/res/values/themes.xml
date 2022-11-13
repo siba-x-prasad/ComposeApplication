@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ComposeApplicationTheme" parent="android:Theme.Material.Light.DarkActionBar" />
+
+    <style name="MyTheme" parent="Theme.AppCompat" />
+
+    <style name="Theme.SplashScreenApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/purple_500</item>
+
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.SplashScreenApp">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+
+</resources>
